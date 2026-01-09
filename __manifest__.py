@@ -1,0 +1,21 @@
+{
+    'name': 'HMS',
+    'version': '2.0',
+    'summary': 'Hospitals Management System',
+    'author': 'Doaa-Gamal',
+    'description': """Custom Hospital Management System""",
+    'category': 'Accounting/Healthcare',
+    'depends': ['base','account','crm'],
+    'data': [
+        'security/groups.xml',
+        'security/ir.model.access.csv',
+        'reports/reports.xml',
+        'reports/report_templates.xml',
+        'views/department_views.xml',
+        'views/doctor_views.xml',
+        'views/patient_view.xml',
+        'views/res_partner_inherit_view.xml',
+    ],
+    'installable': True,
+    'application': True,
+}
